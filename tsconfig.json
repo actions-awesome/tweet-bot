@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "target": "es2015",
+    "module": "es2015",
+    "noImplicitAny": false,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": ["src", "node_modules/@actions", "@octokit"]
+}

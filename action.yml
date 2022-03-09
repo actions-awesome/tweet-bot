@@ -1,0 +1,24 @@
+name: 'Tweet bot'
+description: 'Gets your message pushed out automatically'
+inputs:
+  consumer_key:
+    description: 'API key from your twitter developer portal'
+    required: true
+  consumer_secret:
+    description: 'API key secret from your twitter developer portal'
+    required: true
+  access_token_key:
+    description: 'API access token from your twitter developer portal'
+    required: true
+  access_token_secret:
+    description: 'API access token secret from your twitter developer portal'
+    required: true
+  tweet:
+    description: 'Message that you wishes to post to twitter, limited with 140 characters'
+    required: true
+runs:
+  using: node12
+  main: 'dist/main.js'
+branding:
+  icon: 'message-circle'
+  color: 'green'
